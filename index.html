@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pokedex</title>
+    <link rel="icon" href="/assets/imgs/icon.png" type="image/png">
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="/assets/css/login.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/4c221199e8.js" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+   <main>
+    <form action="" class="container__form">
+        <div class="box__info">
+            <img src="/assets/imgs/icon-logo.png" alt="">
+            <h1>Sua pokedex</h1>
+        </div>
+        <input id="email" class="container__form-input" type="email" placeholder="email" required>
+        <input id="senha" class="container__form-input" type="password" placeholder="senha" required>
+        <button type="submit" class="container__form-button" onClick="validarlogin()">login</button>
+
+        <a href="#" class="container__form-nova-senha">Esqaueci a senha</a>
+    </form>
+   </main>
+
+   <script src="/assets/js/login.js"></script>
+
+</body>
+</html>
