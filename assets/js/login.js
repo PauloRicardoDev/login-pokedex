@@ -2,11 +2,12 @@ function validarlogin(){
     var e = document.getElementById('email').value;
     var s = document.getElementById('senha').value;
 
-    if( e !== 'pauloteste@gmail.com' && s !== '123456789'){
-        window.alert("Login inválido!");
-    }
-    else{
+    if( e === 'pauloteste@gmail.com' && s === '123456789'){
         logar(1);
+    }
+    
+    else{
+        window.alert("Login inválido!");
     }
 }
 
